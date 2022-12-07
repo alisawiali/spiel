@@ -1,38 +1,27 @@
 .game{
     width: 300px;
     text-align: center;
-    margin: auto;
+    margin: 0 auto;
     color: #fff;
-    font-family: system-ui;
-    font-weight: 500;
-
 }
-
 #main{
-    text-transform: lowercase;
-    padding: 10px 0;
-    margin: 2px 0;
     background-color: red;
-    border-radius: 3px;
-    width: 95%;
+    padding: 5px 0;
+    margin: 4px 0;
+    width: 84%;
 }
+
 span{
     color: #ffa;
-    
 }
+
 
 .squer{
-    height: 85px;
-    width: 85px;
+    width: 80px;
+    height: 80px;
     background-color: red;
-    margin: 6px  7px;
     float: left;
-    font-size: 55px;
-    border-radius: 50px;
-    /* display: inline-block; */
-}
-
-.squer:hover{
-    background-color: rgb(122, 86, 86);
-    cursor: pointer;
+    margin: 2px;
+    border-radius: 30px;
+    font-size: 50px;
 }

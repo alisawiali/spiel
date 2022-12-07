@@ -9,7 +9,7 @@ function end(num1,num2,num3){
     document.getElementById('item'+ num2).style.backgroundColor = '#222';
     document.getElementById('item'+ num3).style.backgroundColor = '#222';
     setInterval(function(){main.innerHTML += '.'},1000);
-    setTimeout(function(){location.reload()},4000);
+    setTimeout(function(){location.reload()},3000);
 }
 function winner(){
 
